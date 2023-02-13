@@ -39,3 +39,8 @@ path = "src/main.rs"
 [[bin]]
 name = "quickentity-gui"
 path = "src/gui.rs"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+name = "quickentity_rs"
+path = "src/lib.rs"
